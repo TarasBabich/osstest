@@ -1,0 +1,547 @@
+.container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  font-family: sans-serif;
+width: 100%;
+height: auto;
+background-color: #ada6a0;
+padding-bottom: 118px;
+
+}
+.lampa{
+  position: absolute;
+  top: -130px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 130px 70px white;
+
+}
+
+.logo{
+  font-size: 80px;
+ 
+color: rgba(84, 84, 84, 255);
+margin-top: 44px;
+margin-bottom: 15px;
+font-weight: bold;
+opacity: 28%;
+}
+
+.shadow{
+  box-shadow: 0px 0px 3px 3px #8f8984;
+}
+
+.menu{
+display: flex;
+
+flex-direction: row;
+width: 880px;
+height: 55px;
+background-color:#ffffff;
+align-items: center;
+justify-content: space-between;
+padding-left: 48px;
+}
+
+.menu-element{
+  font-size: 18px;
+  margin-left: 35px;
+  margin-right: 35px;
+  color: rgba(91, 91, 91, 255);
+
+  
+}
+.burger_menu{
+display: none;
+}
+.button_menu{
+  display: none;
+}
+
+.shape{
+  width: 28px;
+  height: 22px;
+  margin-right: 27px;
+  margin-left: 310px;
+}
+
+.Big-image{
+  background-image: url(../img/HD_Wallpapers_Wide_Pack.png);
+  width:904px;
+  height:347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 12px solid #ffffff;
+  margin-top: 15px;
+}
+
+.slider-container{
+  display: none;
+  }
+
+.swiper-container{
+  display: none;
+}
+
+.section-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news{
+  display: flex;
+  width: 225px;
+  height: 375px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-right:0px;
+  margin-top:30px;
+    box-shadow: 0px 0px 3px 3px #8f8984;
+}
+
+
+
+.image{
+  width: 201px;
+  height: 157px;
+  margin-top:12px;
+}
+
+.text{
+
+  height: auto;
+  font-size: 12px;
+}
+
+.more{
+  
+  font-size: 12px;
+  color: rgba(0, 0, 0, 255);
+margin-left:172px;
+margin-top:30px;
+text-decoration: underline;
+}
+
+.size-news-text{
+  margin-top:20px;
+  width:202px;
+}
+
+.section-2{
+  display: flex;
+  flex-direction: row;
+  width: 917px;
+  height:176px;
+  background-color: #ffffff;
+  margin-top: 15px;
+  padding-top:11px;
+  padding-left: 11px;
+ padding-bottom: 8px;
+}
+
+.image-section{
+ 
+  width:228px;
+  height: 168px;
+  margin-right: 16px;
+}
+
+.image-2{
+  width: 105px;
+  height: 80px;
+  margin-bottom: 8px;
+  margin-right: 5px;
+ 
+}
+
+.text-section{
+  width: 673px;
+}
+
+
+.size-news-text-2{
+  width: 673px;
+margin-right: 16px;
+height: auto;
+}
+
+.invitation{
+  font-size: 12.0015pt;
+color: rgba(0, 0, 0, 255);
+margin-bottom: 18px;
+}
+
+.position{
+  margin-top:184px;
+margin-left:600px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+  margin-top: 15px;
+  background-color: #ffffff;
+  width: 928px;
+  height: 55px;
+  
+}
+
+
+
+.footer-element{
+  font-size: 14px;
+    color: rgba(91, 91, 91, 255);
+    margin-left: 22px;
+}
+
+@media only screen and (max-width: 640px){
+  .container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  font-family: sans-serif;
+width: 640px;
+height: auto;
+background-color: #ada6a0;
+padding-bottom: 118px;
+}
+
+.logo{
+      top: 50px;
+    font-size: 80px;
+    color: rgba(84, 84, 84, 255);
+    margin-top: 120px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    opacity: 28%;
+    
+}
+
+.lampa{
+  position: absolute;
+  top: -100px;
+ 
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 130px 70px white;
+
+}
+
+  .menu{
+display: flex;
+position: fixed;
+top: 0px;
+flex-direction: row;
+width: 592px;
+height: 55px;
+background-color:#ffffff;
+align-items: center;
+justify-content: space-between;
+padding-left: 48px;
+z-index: 11;
+}
+
+.menu-btn_nav{
+  display: none;
+}
+
+  .Big-image{
+  background-image: url(../img/HD_Wallpapers_Wide_Pack.png);
+  width:640px;
+  height:247px;
+  background-size: cover;
+  background-repeat: no-repeat;
+   border: 0px solid #ffffff;
+
+  margin-top: 0px;
+}
+
+.swiper-container{
+  display: block;
+  width: 640px;
+  z-index: 10;
+}
+
+.burger_menu{
+display: block;
+}
+
+
+.button_menu{
+  display: block;
+}
+.more{
+font-size: 12px;
+    color: rgba(0, 0, 0, 255);
+    margin-left: 540px;
+    margin-top: 10px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 4px;
+    background-color: black;
+}
+
+
+.news{
+  display: flex;
+  width: 640px;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-right:0px;
+  margin-top:30px;
+    box-shadow: 0px 0px 3px 3px #8f8984;
+}
+
+.section-1{
+  display: none;
+}
+
+
+.section-2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 629px;
+  height:176px;
+  background-color: #ffffff;
+  margin-top: 15px;
+  padding-top:11px;
+  padding-left: 11px;
+}
+
+.size-news-text{
+  margin-top:20px;
+  width:600px;
+}
+
+
+
+.text-section{
+  width: 300px;
+}
+
+.size-news-text-2{
+  width: 370px;
+margin-right: 16px;
+height: auto;
+}
+
+.position{
+  position: absolute;
+  top:170px;
+left: 580px;
+  margin-top:0px;
+margin-left:0px;
+}
+
+.image{
+  width: 610px;
+  height: 600px;
+  margin-top:12px;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+  margin-top: 15px;
+  background-color: #ffffff;
+  width: 640px;
+  height: 55px;
+  
+}
+
+}
+
+
+@media only screen and (max-width: 320px){
+   .container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  font-family: sans-serif;
+width: 320px;
+height: auto;
+background-color: #ada6a0;
+padding-bottom: 118px;
+}
+
+.lampa{
+  position: absolute;
+  top: -130px;
+ 
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 130px 70px white;
+
+}
+
+.burger_menu{
+display: block;
+}
+
+.button_menu{
+  display: block;
+}
+
+
+  .menu{
+display: flex;
+flex-direction: row;
+width: 272px;
+height: 55px;
+background-color:#ffffff;
+align-items: center;
+justify-content: space-between;
+padding-left: 48px;
+z-index: 11;
+}
+
+.menu-btn_nav{
+  display: none;
+}
+  
+  .Big-image{
+  background-image: url(../img/HD_Wallpapers_Wide_Pack.png);
+  width:320px;
+  height:247px;
+  background-size: cover;
+  background-repeat: no-repeat;
+   border: 0px solid #ffffff;
+
+  margin-top: 15px;
+}
+
+.swiper-container{
+  display: block;
+  width: 320px;
+}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+
+.section-1{
+  display: none;
+}
+.position-2{
+  
+  font-size: 12px;
+  color: rgba(0, 0, 0, 255);
+margin-left:152px;
+margin-top:30px;
+text-decoration: underline;
+}
+
+.news{
+  display: flex;
+  width: 225px;
+  height: 375px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-right:0px;
+  margin-top:30px;
+    box-shadow: 0px 0px 3px 3px #8f8984;
+}
+
+.section-2{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  width: 309px;
+  height:auto;
+  background-color: #ffffff;
+  margin-top: 15px;
+  padding-top:11px;
+  padding-left: 11px;
+}
+
+.size-news-text{
+  margin-top:20px;
+  width:202px;
+}
+
+.text-section{
+  width: 300px;
+}
+
+.size-news-text-2{
+  width: 300px;
+margin-right: 16px;
+height: auto;
+}
+
+.shape {
+    width: 28px;
+    height: 22px;
+    margin-right: 27px;
+    margin-left: 210px;
+}
+
+
+
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  color: white;
+  
+}
+
+
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 4px;
+    background-color: black;
+}
+
+.position {
+    position: absolute;
+    top: 380px;
+    left: 270px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.image{
+  width: 201px;
+  height: 157px;
+  margin-top:12px;
+}
+
+.invitation{
+  font-size: 12.0015pt;
+color: rgba(0, 0, 0, 255);
+margin-bottom: 18px;
+margin-top: 10px; 
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+  margin-top: 15px;
+  background-color: #ffffff;
+  width: 320px;
+  height: 55px;
+  flex-wrap: wrap;
+}
+}

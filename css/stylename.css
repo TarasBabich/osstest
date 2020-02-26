@@ -1,0 +1,18 @@
+@font-face {
+			font-family: "RockwellRegular";
+			src: url("../fonts/RockwellRegular/RockwellRegular.eot");
+			src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"),
+			url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "RockwellBoldItalic";
+			src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
+			src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"),
+			url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
