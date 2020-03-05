@@ -506,7 +506,13 @@ height: auto;
   
 }
 
-
+.image-section{
+ 
+  width:228px;
+  height: 168px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 4px;
