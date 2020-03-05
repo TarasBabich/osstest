@@ -82,7 +82,20 @@ position: absolute;
    transition: 0.5s;
 }
 
+.menu_overlay{
+  display: none;
+  position: fixed;
+width: 100vw;
+height: 100vh;
+top: 0;
+left: 0;
+z-index: 8;
+}
 
+.menu_active .menu_overlay{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .punkt_menu{
   padding: 30px;
